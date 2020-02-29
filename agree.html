@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
 	<meta charset="UTF-8">
 	<title>Redlix</title>
 	<link rel="stylesheet" href="style.css">
+	<script src="http://code.jquery.com/jquery-1.8.3.js"></script>
 </head>
 <style>
 	body::before {
@@ -15,6 +17,13 @@
 
 </style>
 <body>
+	<div class="tel_menu">
+			<div class="relativity">
+				<a href="index.html">Загрузить</a>
+				<a href="donate.html">Донат</a>
+				<a href="#">Группа ВК</a>
+			</div>
+	</div>
 	<header>
 		<div class="container_menu">
 			<a href="index.html" class="logo"><img src="Materials/Logo.png" alt="Redlix"></a>
@@ -23,6 +32,11 @@
 				<a href="donate.html">Донат</a>
 				<a href="#">Группа ВК</a>
 			</div>
+				<div class="hamburger" id="hamburger">
+					<span class="s1"></span>
+					<span class="s2"></span>
+					<span class="s3"></span>
+				</div>
 		</div>
 	</header>
 
@@ -62,5 +76,6 @@
 			<a href="#">Контакты</a>
 		</div>
 	</footer>
+	<script src="script.js"></script>
 </body>
 </html>

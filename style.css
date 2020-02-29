@@ -28,9 +28,9 @@ body {
 	margin: 0;
 	padding: 0;
 	background: #182231 url(Materials/bg_tile.jpg) repeat;
-	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
+	overflow: hidden;
 }
 
 body::before {
@@ -674,6 +674,12 @@ ul {
 	}
 	.btns a {
 		margin-right: 50px;
+	}
+	.container_footer {
+		flex-direction: column;
+	}
+	.caption {
+		margin-top: 100px !important;
 	}
 }
 
