@@ -30,7 +30,6 @@ body {
 	background: #182231 url(Materials/bg_tile.jpg) repeat;
 	flex-direction: column;
 	justify-content: space-between;
-	overflow: hidden;
 }
 
 body::before {
@@ -680,6 +679,9 @@ ul {
 	}
 	.caption {
 		margin-top: 100px !important;
+	}
+	footer {
+		height: auto;
 	}
 }
 
